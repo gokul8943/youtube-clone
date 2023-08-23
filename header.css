@@ -1,0 +1,117 @@
+.header{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #fff;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 222, 222);
+    z-index: 500;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.three-line{
+    width:50px;
+    height:25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    width: 130px;
+    height:25px;
+}
+.middle-section{
+    
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex:1;
+    height:30px;
+    width:0px;
+    margin-left: 20px;
+    padding-left: 12px;
+    font-size:16px;
+    border-color: rgb(209, 209, 209);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0,0, 0.5);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size:16px;
+}
+.search-button{
+   height:35px;
+   width:60px;
+   border-color: rgb(209, 209, 209);
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(193, 193, 193);
+   margin-left: -2px;
+   margin-right: 5px;
+   border-radius: 1px;
+   box-shadow: inset 1px 2px 5px rgba(0, 0,0, 0.5);
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+   
+}
+.search-icon{
+
+    height:20px;
+    margin-top: 2px;    
+}
+.voice-button{
+    height:40px;
+    width: 40px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(232, 228, 228);
+}
+.voice-icon{
+    height:18px;
+    margin-top: 4px;
+    background-color: rgb(232, 225, 225);
+}
+.right-section{
+   
+    width:200px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload{
+    width:30px;
+    height: 30px;
+}
+.apps{
+    width: 30px;
+    height: 30px;
+}
+.notifications{
+    width:30px;
+    height:30px;
+}
+.profile1{
+    height:30px;
+    width:30px;
+    border-radius: 15px;
+}
